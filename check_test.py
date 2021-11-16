@@ -14,15 +14,10 @@ checkbox2= driver.find_element(By.CSS_SELECTOR,"#checkboxes > input[type=checkbo
 def marcar_checks(check1, check2):
 
     if check1:
-        if checkbox1.is_selected()
+        if checkbox1.is_selected():
+            print(True)
 
 
-    if check2:
-
-
-
-
-   pass
 
 
 try:
